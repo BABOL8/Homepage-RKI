@@ -1,0 +1,391 @@
+/* line 3, src/assets/scss/pages/_header.scss */
+.header-fixed {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 99;
+  }
+  
+  /* line 10, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-cyan {
+    height: 100px;
+    width: 100%;
+    background-color: #15bbda;
+  }
+  
+  /* line 14, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-cyan.primary {
+    background-color: #29a399;
+  }
+  
+  /* line 18, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-cyan-xs {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  /* line 23, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-static {
+    position: relative;
+  }
+  
+  /* line 27, src/assets/scss/pages/_header.scss */
+  .header-wrapper {
+    width: 100%;
+    max-width: 975px;
+    height: 100%;
+    padding: 0 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  
+  /* line 37, src/assets/scss/pages/_header.scss */
+  .header-wrapper.container {
+    max-width: 510px;
+  }
+  
+  /* line 41, src/assets/scss/pages/_header.scss */
+  .header-title {
+    width: 100%;
+    max-width: 975px;
+    height: 100%;
+    padding: 0 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  
+  /* line 51, src/assets/scss/pages/_header.scss */
+  .header-title.container {
+    max-width: 510px;
+  }
+  
+  /* line 54, src/assets/scss/pages/_header.scss */
+  .header-title.container-fluid {
+    padding: 0;
+  }
+  
+  @media (max-width: 480px) {
+    /* line 54, src/assets/scss/pages/_header.scss */
+    .header-title.container-fluid {
+      padding: 0 15px;
+    }
+  }
+  
+  /* line 60, src/assets/scss/pages/_header.scss */
+  .header-title h5 {
+    width: calc(100% - 80px);
+    font-size: 18px;
+    color: #FF0000;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header-title {
+    width: 100%;
+    max-width: 975px;
+    height: 100%;
+    padding: 0 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  
+  /* line 51, src/assets/scss/pages/_header.scss */
+  .header-title.container {
+    max-width: 510px;
+  }
+  
+  /* line 54, src/assets/scss/pages/_header.scss */
+  .header-title.container-fluid {
+    padding: 0;
+  }
+  
+  @media (max-width: 480px) {
+    /* line 54, src/assets/scss/pages/_header.scss */
+    .header-title.container-fluid {
+      padding: 0 15px;
+    }
+  }
+
+  
+  .header-fixed.header-cyan {
+    height: 100px;
+    width: 100%;
+    background-color: #15bbda;
+  }
+  
+  /* line 14, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-cyan.primary {
+    background-color: #29a399;
+  }
+  
+  /* line 18, src/assets/scss/pages/_header.scss */
+  .header-fixed.header-cyan-xs {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+
+  /* line 173, src/assets/scss/components/_buttons.scss */
+a.btn.button-back,
+.btn.button-back {
+  background-color: transparent;
+  border-color: transparent;
+  color: #FF0000;
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+  padding-left: 5px;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-weight: 400;
+}
+
+.content-wrapper {
+  width: 100%;
+  padding-top: 65px;
+  position: relative;
+  min-height: calc(100vh - 65px);
+}
+
+/* line 73, src/assets/scss/pages/_global.scss */
+.content-wrapper.grey,
+.content-wrapper.bg-grey {
+  background-color: #f7f7f7;
+}
+
+/* line 77, src/assets/scss/pages/_global.scss */
+.content-wrapper.auth-wrap {
+  min-height: 100vh;
+  padding: 80px 0;
+  background-color: #FF0000;
+}
+
+@media (max-width: 769px) {
+  /* line 77, src/assets/scss/pages/_global.scss */
+  .content-wrapper.auth-wrap {
+    padding: 0;
+  }
+}
+
+.banner-title {
+  padding: 20px 0;
+  background-color: #FF6600;
+  width: 100%;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  z-index: 1;
+  height: 200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  /* line 125, src/assets/scss/pages/_contents.scss */
+  .banner-title {
+    background-size: cover;
+  }
+}
+
+/* line 141, src/assets/scss/pages/_contents.scss */
+.banner-title p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  /* line 141, src/assets/scss/pages/_contents.scss */
+  .banner-title p {
+    font-size: 14px;
+  }
+}
+
+/* line 151, src/assets/scss/pages/_contents.scss */
+.banner-title h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  /* line 151, src/assets/scss/pages/_contents.scss */
+  .banner-title h1 {
+    font-size: 20px;
+  }
+}
+
+.container-fluid {
+  max-width: 975px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 480px) {
+  /* line 41, src/assets/scss/pages/_global.scss */
+  .container-fluid {
+    padding: 15px;
+  }
+  /* line 47, src/assets/scss/pages/_global.scss */
+  .container-fluid.p-sm-0 {
+    padding: 0;
+  }
+}
+
+/* line 52, src/assets/scss/pages/_global.scss */
+dl,
+ol,
+ul {
+  margin: 0;
+}
+
+/* line 57, src/assets/scss/pages/_global.scss */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 640px !important;
+}
+
+@media (max-width: 480px) {
+  /* line 57, src/assets/scss/pages/_global.scss */
+  .container {
+    padding: 0px;
+  }
+  /* line 63, src/assets/scss/pages/_global.scss */
+  .container.xs-size {
+    padding: 0 15px;
+  }
+}
+.box-content {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.box-content h5{
+  padding-top: 20px;
+}
+
+.landing-video {
+  padding: 10px 25px;
+  background-color: #ffffff;
+  width: 100;
+}
+
+@media (max-width: 450px) {
+  /* line 54, src/assets/scss/pages/_landingpage.scss */
+  .landing-video {
+    padding: 10px 15px;
+  }
+}
+
+/* line 61, src/assets/scss/pages/_landingpage.scss */
+.landing-video .thumbnail-video {
+  width: 100%;
+  position: relative;
+}
+
+/* line 64, src/assets/scss/pages/_landingpage.scss */
+.landing-video .thumbnail-video img {
+  width: 100%;
+  border-radius: 6px;
+  height: 350px;
+ 
+}
+
+/* line 68, src/assets/scss/pages/_landingpage.scss */
+.landing-video .thumbnail-video button {
+  background-color: #29a399;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@media (max-width: 480px) {
+  /* line 68, src/assets/scss/pages/_landingpage.scss */
+  .landing-video .thumbnail-video button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+}
+
+.landing-video .thumbnail-video {
+  width: 100%;
+  position: relative;
+}
+
+/* line 64, src/assets/scss/pages/_landingpage.scss */
+.landing-video .thumbnail-video img {
+  width: 100%;
+  border-radius: 6px;
+  height: 350px;
+ 
+}
+
+/* line 68, src/assets/scss/pages/_landingpage.scss */
+.landing-video .thumbnail-video button {
+  background-color: #29a399;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@media (max-width: 480px) {
+  /* line 68, src/assets/scss/pages/_landingpage.scss */
+  .landing-video .thumbnail-video button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+}

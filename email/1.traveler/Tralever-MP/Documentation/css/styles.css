@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+  font-size: 11px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 2px 4px 0px 4px;
+}
+
+a {
+  color:#DF643F;
+}
+
+a:focus, a:hover {
+    color: #DF643F;
+    text-decoration: underline;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #DF643F;
+}
+
+.psd .bg-color {
+  background-color: rgba(0, 0, 0, 0.875);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.psd .jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+}
+
+.psd h1, .psd small, .psd p {
+  color: #ffffff;
+}
+
+small {
+  font-weight: lighter !important;
+}
+
+h1 span {
+  color: #F55423;
+}
+
+.page-header.inside {
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-header.inside h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.esp {
+  background-color: #fafafa;
+  border-radius: 24px; 
+  border: 1px solid #eeeeee;
+}
+
+h1.no-gaps {
+  line-height: 75% !important;
+}
+
+.dash-splitter {
+  border-bottom: 1px dashed #444444;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+
+h1.no-gaps {
+  padding: 0;
+  margin: 0;
+}
+
+br.brake {
+  display: none;
+}
+
+span.splitter {
+  color: #ffffff;
+  display: inline-block;
+}
+
+span.focus-text {
+  color: #DF643F;
+}
+
+.item-title {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 100;
+  color: #666666;
+  letter-spacing: 1px;
+}
+
+.thumb.img-responsive {
+  box-shadow: 0px 0px 10px #cccccc;
+} 
+
+.psd .jumbotron p {
+    margin-bottom: 0px !important;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px #999999;
+  border-radius: 6px;
+}
+
+
+@media screen and (max-width: 599px) {
+
+  br.brake {
+    display: block;
+  }
+
+  span.splitter {
+    display: none;
+  }
+
+  .psd .bg-color {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .esp {
+    margin-bottom: 20px; 
+  }
+
+}
