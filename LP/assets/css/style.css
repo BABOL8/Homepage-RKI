@@ -18,6 +18,8 @@ body {
     background-color: black;
     min-height: 100vh;
     align-items: center;
+      min-width: 100vh;
+
 }
 
 header {
